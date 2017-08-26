@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  gitblit:
+    image: terrella-gitblit
+    ports:
+      - 8443:8443
